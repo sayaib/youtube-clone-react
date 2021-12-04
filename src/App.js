@@ -1,12 +1,12 @@
 import './App.css';
+import Header from './Header';
 
 function App() {
-return (
-  <>
-  <h1>Sayaib Sarkar</h1>
-    
-  </>
-);
+  return (
+    <div className="app">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
