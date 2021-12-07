@@ -2,7 +2,6 @@ import React from "react";
 import "./Header.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
-import MicRoundedIcon from '@mui/icons-material/MicRounded';
 import VideoCallIcon from "@mui/icons-material/VideoCall";
 import AppsIcon from "@mui/icons-material/Apps";
 import NotificationsIcon from "@mui/icons-material/Notifications";
@@ -23,7 +22,6 @@ function Header() {
       <div className="header_input">
         <input placeholder="Search" type="text" name="" id="" />
         <SearchIcon className="header_inputButton" />
-        <MicRoundedIcon />
       </div>
 
       <div className="header_icons">

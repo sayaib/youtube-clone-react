@@ -13,6 +13,7 @@
     height: 25px;
     object-fit: contain;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .header_input {
@@ -25,6 +26,7 @@
 .header_input>input {
     flex: 1;
     border: none;
+    outline: none;
 }
 
 .header_inputButton {
@@ -42,4 +44,5 @@
 
 .header_icon {
     margin-right: 5px;
+    cursor: pointer;
 }

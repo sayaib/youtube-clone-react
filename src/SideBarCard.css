@@ -1,0 +1,22 @@
+.cardComponent{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.cardComponent:hover{
+    background-color: #fafafa;
+    cursor: pointer;
+}
+.sidebar_icon{
+    color: #606060;
+}
+.cardComponent:hover>.sidebar_icon{
+    color: red;
+    transition: 0.2s;
+}
+.sidebar_title{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
