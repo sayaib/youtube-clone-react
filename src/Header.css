@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px 20px;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -27,6 +27,8 @@
     flex: 1;
     border: none;
     outline: none;
+    padding: 0.7rem 0.8rem;
+    font-size: 15px;
 }
 
 .header_inputButton {
@@ -35,6 +37,7 @@
     border-left: 1px solid lightgray;
     color: gray;
     cursor: pointer;
+    padding: 0.4rem;
 }
 
 .header_icons {
