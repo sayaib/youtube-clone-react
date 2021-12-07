@@ -11,7 +11,6 @@ function SideBar() {
       <SideBarCard Icon={HomeIcon} name="Home" />
       <SideBarCard Icon={ExploreIcon} name="Explore" />
       <SideBarCard Icon={SubscriptionsIcon} name="Subscriptions" />
-      <hr />
     </div>
   );
 }
