@@ -1,6 +1,7 @@
 .videoCard {
-    width: 270px;
-    margin-bottom: 40px;
+
+    width: 250px;
+    margin:20px 10px;
 }
 
 .thumbnailImage {
@@ -12,4 +13,14 @@
    display: flex;
 }
 
-.channelDetails {}
+h4{
+    font-weight: 500;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+}
+
+.channelDetails {
+    margin-left: 10px;
+}

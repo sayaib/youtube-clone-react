@@ -2,6 +2,7 @@ import React from "react";
 import "./VideoCard.css";
 import Avatar from "@mui/material/Avatar";
 
+
 function VideoCard({ img, title, avatar, channelName, views, postedTime }) {
   return (
     <div className="videoCard">
