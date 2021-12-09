@@ -127,7 +127,6 @@ function RecommendVideos() {
           views="2.1M views"
           postedTime="11 days ago"
         />
-
       </div>
     </div>
   );
